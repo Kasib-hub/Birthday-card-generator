@@ -15,7 +15,7 @@ int main() {
         cin >> choice;
         switch(choice) {
             case 1: {
-                string name, address, birth, anny;
+                string name, address, birth, anniversary;
                 cout << "Enter Name: ";
                 cin >> name;
                 tolower(name[0]);
@@ -28,9 +28,9 @@ int main() {
                 birth = checkdateInput();
 
                 cout << "Enter Anniversary (MM/DD): ";
-                anny = checkdateInput();
+                anniversary = checkdateInput();
 
-                prepend(name, address, birth, anny);
+                prepend(name, address, birth, anniversary);
                 insertionSort(head);
             }
                 break;
