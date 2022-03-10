@@ -4,4 +4,4 @@ Integrated using C++, this application presents as an interactive menu launched 
 
 # How to use
 
-Download all of the files and run the executable. The menu is controlled using numbers to select actions.
+Download all of the files as a zip file. Unzip the contents and run the executable. The menu is controlled using numbers to select actions.
